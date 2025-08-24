@@ -28,6 +28,7 @@ while game_is_on:
     if player.ycor()==280:
         player.finish_line()
         car_manager.level_up()
+        scoreboard.increase_level()
 
 
 
